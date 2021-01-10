@@ -16,6 +16,7 @@ import java.util.Random;
  * 当l=r时，交换该元素和key的位置，此轮结束下来key左边的元素小于key,右边的元素大于key
  * 再用左边的子数组和右边的子数组递归调用本方法
  * 时间复杂度是nlogn log16=4 2的4次方等于16. n代表元素个数
+ * 空间复杂度O(n)，最差n次递归调用。
  * @author wangqian
  * created on 2021-01-08
  * @version  1.0.0

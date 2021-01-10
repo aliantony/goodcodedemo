@@ -14,6 +14,7 @@ import java.util.Arrays;
  * 快排最坏的情况是所有节点只有左节点或只有右节点，
  * 这时分区函数每次分出来都是1个元素和其他元素两部分。
  * 这时是n平方的时间复杂度
+ * 堆排序空间复杂度O(1)
  * https://www.cnblogs.com/chengxiao/p/6129630.html
  * @author wangqian
  * created on 2021-01-10
