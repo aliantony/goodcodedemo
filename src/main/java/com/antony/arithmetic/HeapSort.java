@@ -9,6 +9,11 @@ import java.util.Arrays;
  * 2*i+1 2*i+2 父节点的左右节点位置。
  * 任意父节点大于子节点的是大顶堆
  * 任意父节点小于子节点的是小顶堆
+ * 最好最坏情况都能保持nlogn的时间复杂度
+ * 快排最坏情况下是n平方，平均是nlogn
+ * 快排最坏的情况是所有节点只有左节点或只有右节点，
+ * 这时分区函数每次分出来都是1个元素和其他元素两部分。
+ * 这时是n平方的时间复杂度
  * https://www.cnblogs.com/chengxiao/p/6129630.html
  * @author wangqian
  * created on 2021-01-10
