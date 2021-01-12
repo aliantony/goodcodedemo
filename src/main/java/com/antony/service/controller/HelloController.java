@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 即MappingJackson2HttpMessageConverter中）
  * 来实现Json格式数据的序列化和反序列化；如果是RequestParam或者PathVariable类型的参数，
  * 通过配置Converter实现参数转换（这些Converter会注入到ConversionService中）。
+ * https://juejin.im/post/5e62817fe51d4526d05962a2
  * @author wq
  * created on 2021-01-12
  * @version  1.0.0
