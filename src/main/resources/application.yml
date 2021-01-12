@@ -1,0 +1,7 @@
+# JSON\u5165\u53C2\u53CA\u8FD4\u56DE\u503C\u5168\u5C40\u5904\u7406\uFF0C\u652F\u6301\uFF08content-type=application/json\uFF09\u8BF7\u6C42\u4E2D\u683C\u5F0F\u4E3A yyyy-MM-dd HH:mm:ss\u7684\u5B57\u7B26\u4E32\uFF0C\u540E\u53F0\u7528@RequestBody\u63A5\u6536\uFF0C\u53CA\u8FD4\u56DE\u503Cdate\u8F6C\u4E3Ayyyy-MM-dd HH:mm:ss\u683C\u5F0Fstring
+# \u4E0D\u652F\u6301\uFF08content-type=application/json\uFF09\u8BF7\u6C42\u4E2Dyyyy-MM-dd\u7B49\u7C7B\u578B\u7684\u5B57\u7B26\u4E32\u8F6C\u4E3Adate\uFF1B
+# \u4E0D\u652F\u6301java8\u65E5\u671Fapi;
+#spring:
+#  jackson:
+#    date-format: yyyy-MM-dd HH:mm:ss
+#    time-zone: GMT+8
