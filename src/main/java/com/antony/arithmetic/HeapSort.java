@@ -15,6 +15,9 @@ import java.util.Arrays;
  * 这时分区函数每次分出来都是1个元素和其他元素两部分。
  * 这时是n平方的时间复杂度
  * 堆排序空间复杂度O(1)
+ *
+ * 堆排序始终要保持堆是一个大顶堆包括它的子树，再把堆顶的值交换到数组最后一个位置，交换
+ * 后还要维持除最后一个值外的其他数组元素是一个大顶堆包括子树。
  * https://www.cnblogs.com/chengxiao/p/6129630.html
  * @author wangqian
  * created on 2021-01-10
